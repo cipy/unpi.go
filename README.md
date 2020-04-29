@@ -1,6 +1,6 @@
 # unpi.go
 
-învață [Golang](https://go-tour-ro.appspot.com/) cu noi, în limba română, în [proiectul unPi](https://www.unpi.ro/)
+învață programarea în [Golang](https://go-tour-ro.appspot.com/) cu noi, în limba română, în [proiectul unPi](https://www.unpi.ro/)
 
 #### mai întâi, o scurtă prezentare (video)
 

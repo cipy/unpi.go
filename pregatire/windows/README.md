@@ -4,7 +4,7 @@
 
 ### Pas cu Pas
 
-Pentru a putea învăța și exersa cursul de Golang cu noi, trebuie ca tu să execuți **exact** pașii următori:
+Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu să execuți **exact** pașii următori:
 
 - creează un director ("folder") la tine pe calculatorul personal, pe Desktop și numește acest director (să zicem) "unpi"
 

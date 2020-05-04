@@ -11,7 +11,7 @@ Acest curs de programare, precum și următoarele pe care le vom face, sunt dest
 
 ### Curs
 
-Cursul nostru [de programare](https://start.unpi.ro/dece/) în limbajul Golang constă într-o lecție online ce va apare [aici] cam o dată la fiecare 2 săptamâni. Elevii, copii sau adulți, vor trebui să încerce singuri **fiecare** din aceste lecții, **în ordinea cronologică** în care au fost prezentate (mai jos), pe calculatorul lor personal de acasă. **Doar** pentru beneficiarii [Asociației unPi pentru Școlari](https://www.unpi.ro/) vom organiza și sesiuni online de întrebări și răspunsuri. Utilizatorii privați ne pot pune [întrebări pe email]() la care vom încerca să răspundem în limita timpului disponibil.
+Cursul nostru [de programare](https://start.unpi.ro/dece/) în limbajul Golang constă în lecții online ce vor apare [aici] în ritm de o lecție nouă la fiecare 2 săptamâni (aproximativ). Elevii, copii sau adulți, vor trebui să încerce singuri **fiecare** din aceste lecții, **în ordinea cronologică** în care au fost prezentate (mai jos), pe calculatorul lor personal de acasă. **Doar** pentru beneficiarii [Asociației unPi pentru Școlari](https://www.unpi.ro/) vom organiza și sesiuni online de întrebări și răspunsuri. Utilizatorii privați ne pot pune [întrebări pe email]() la care vom încerca să răspundem în limita timpului disponibil.
 
 ### Cuprins
 

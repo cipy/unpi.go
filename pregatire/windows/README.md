@@ -25,4 +25,4 @@ Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu s
 - atașează acum fișierul **ISO** (Raspbian Desktop pentru PC) ca DVD la mașină ta virtuală nou creată
 - pornește noua ta mașină virtuală și continuă configurarea ei precum este descris [aici]
 
-### Ești gata? (te poți întoarce acum la [cursul de programare în Golang](https://go.unpi.ro/)
+### Ești gata? (te poți întoarce acum la [cursul de programare în Golang](https://go.unpi.ro/))

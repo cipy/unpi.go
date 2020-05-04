@@ -7,7 +7,7 @@ Acest curs de programare, precum și următoarele pe care le vom face, sunt dest
 
 ### Pregătire
 
-[Ai primit unPi](https://vimeo.com/329034464), l-[ai asamblat](https://vimeo.com/329035192) și l-[ai conectat](https://vimeo.com/329036345) [la TV](https://vimeo.com/329037141). Apoi urmează te rog pașii de pregătire de [aici]. Dacă ai un calculator personal cu Windows 7, 8.1 sau 10, urmează te rog pașii de pregătire de [aici].
+[Ai primit unPi](https://vimeo.com/329034464), l-[ai asamblat](https://vimeo.com/329035192) și l-[ai conectat](https://vimeo.com/329036345) [la TV](https://vimeo.com/329037141). Apoi urmează te rog pașii de pregătire de [aici]. Dacă ai un calculator personal cu Windows 7, 8.1 sau 10, urmează te rog acești [pași de pregătire pentru Windows OS](https://go.unpi.ro/pregatire/windows).
 
 ### Curs
 

@@ -6,7 +6,7 @@ Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei �
 
 ### Cum pregătesc un calculator personal cu Windows OS pentru cursul de Golang
 
-În primul rând trebuie să ai pe calculatorul tău sistemul de operare Windows versiunea 7, 8.1 sau 10. Windows XP **nu** mai este suportat, deci nu te putem ajuta dacă ai acest vechi sistem de operare. Dacă ai în schimb un Windows 8.1 sau 10 fără licență, te poți înscrie în programul de voluntariat al Asociației unPi pentru Școlari și vei primi o licență gratis câtă vreme ești voluntar și ne ajuti în rolul pe care ți-l alegi.
+În primul rând trebuie să ai pe calculatorul tău sistemul de operare Windows versiunea 7, 8.1 sau 10. Windows XP **nu** mai este suportat, deci nu te putem ajuta dacă ai acest vechi sistem de operare. Dacă ai în schimb un Windows 8.1 sau 10 fără licență, te poți înscrie în [programul de voluntariat al Asociației unPi pentru Școlari](https://start.unpi.ro/ong/voluntar/) și vei primi o licență gratis câtă vreme ești voluntar și ne ajuti în rolul pe care ți-l alegi.
 
 ### Pas cu Pas
 

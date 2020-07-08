@@ -5,7 +5,7 @@ Acest curs de programare, precum și următoarele pe care le vom face, sunt dest
 
 ### Pregătire
 
-[Ai primit unPi](https://vimeo.com/329034464), l-[ai asamblat](https://vimeo.com/329035192) și l-[ai conectat](https://vimeo.com/329036345) [la TV](https://vimeo.com/329037141). Pornește acum calculatorul tău personal unPi pentru prima dată, apoi pornește aplicația Terminal 📺 și tastează în ea **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
+[Ai primit unPi](https://vimeo.com/329034464), l-[ai asamblat](https://vimeo.com/329035192) și l-[ai conectat](https://vimeo.com/329036345) [la TV](https://vimeo.com/329037141). Pornește acum calculatorul tău personal unPi pentru prima dată, apoi pornește aplicația Terminal 📺 și tastează în ea **exact** comenzile de mai jos, apăsând tasta **Enter** după fiecare linie de comandă:
 
 ```bash
 wget init.unpi.ro

@@ -14,7 +14,7 @@ Vei putea urma prima parte a cursului de programare în Golang și pe un calcula
 - după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash
-curl -sL init.unpi.ro -o init.sh
+curl.exe -sL init.unpi.ro -o init.sh
 sudo bash init.sh
 ```
 

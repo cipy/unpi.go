@@ -10,17 +10,18 @@ Vei putea urma prima parte a cursului de programare în Golang și pe un calcula
 
 ### Pas cu Pas pentru WSL / numai pe Windows 10 Pro 64-bit
 
-- trebuie să activezi WSL(1) in Windows 10, pentru asta deschide un PowerShell **ca Administrator** și rulează în el:
+- trebuie să activezi WSL(1) în Windows 10,
+- pentru asta deschide aplicația PowerShell **ca Administrator** și rulează în ea:
 
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
 - după ce comanda precedentă termină de executat, **trebuie** să restartezi Windows 10
-- pornește [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care ai instalat-o (mai devreme) din Microsoft Store 
+- pornește acum [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care ai instalat-o (mai devreme) din Microsoft Store 
 - la pornire aplicația îți va cere un nume de utilizator, folosește: **pi** iar ca parolă, folosește: **raspberry**
 - (**nimeni nu se poate conecta** din afara calculatorului tău, chiar dacă știe parola acestui utilizator)
-- după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
+- după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, o linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash
 curl.exe -sL init.unpi.ro -o init.sh

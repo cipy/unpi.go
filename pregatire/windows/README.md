@@ -2,15 +2,24 @@
 
 Vei putea urma prima parte a cursului de programare în Golang și pe un calculator personal cu **Windows OS** - doar dacă urmezi cu strictețe pașii pregătitori de mai jos. Dar pe parcurs, după primul an de studii cu noi, îți va fi din ce în ce mai greu să ne urmărești, dacă nu ai [unPi](https://start.unpi.ro/spec/) al tău.
 
+#### înainte de a începe, verifică te rog că Windows OS este **up-to-date** sau instalează **toate** update-urile și repornește-l
+
 ### Cum pregătesc un calculator personal cu Windows 10 Pro 64-bit
 
 În primul rând, chiar ai nevoie de un calculator cu sistemul de operare **Windows 10 Pro pe 64 de biți**, licențiat. Acești pași **nu vor funcționa** decât pe varianta de [64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Continuă prin a [instala aplicația Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6). _Nu trebuie neapărat sâ te autentifici în Microsoft Store, poți chiar închide fereastra de logare._ Odată instalat Debian OS ca Windows Subsystem for Linux (WSL, în termeni tehnici) vei avea un sistem **mult mai rapid** decât cel bazat pe VirtualBox (descris puțin mai jos la Windows OS).
 
 ### Pas cu Pas pentru WSL / numai pe Windows 10 Pro 64-bit
 
-- pornește [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care tocmai ai instalat-o din Microsoft Store
-- la pornire îți va cere un nume de utilizator, folosește: **pi** iar ca parolă, folosește: **raspberry**
-- (**nimeni nu se poate conecta** din afara calculatorului tău, chiar dacă știe acest utilizator/parolă)
+- trebuie să activezi WSL(1) in Windows 10, pentru asta deschide un PowerShell **ca Administrator** și rulează în el:
+
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+
+- după ce comanda precedentă termină de executat, **trebuie** să restartezi Windows 10
+- pornește [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care ai instalat-o (mai devreme) din Microsoft Store 
+- la pornire aplicația îți va cere un nume de utilizator, folosește: **pi** iar ca parolă, folosește: **raspberry**
+- (**nimeni nu se poate conecta** din afara calculatorului tău, chiar dacă știe parola acestui utilizator)
 - după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash
@@ -19,6 +28,7 @@ sudo bash init.sh
 ```
 
 - la ultima comandă (sudo) vei fi întrebat parola pentru utilizatorul **pi**, care este **raspberry**
+- asteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu" 
 - calculatorul tău este acum pregătit pentru [cursul nostru de programare în limbajul Golang](https://go.unpi.ro/)
 
 ### Cum pregătesc un calculator personal cu Windows OS 7, 8.1 sau 10

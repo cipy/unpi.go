@@ -1,7 +1,7 @@
 
 ### Cuvânt înainte
 
-Acest curs de programare, precum și următoarele pe care le vom face, sunt destinate **exclusiv** pentru [platforma Raspberry Pi](https://www.raspberrypi.org/), pe care noi am rebotezat-o [unPi](https://start.unpi.ro/spec/pc/) în România. Ca să [înveți programarea calculatoarelor](https://start.unpi.ro/invat/programare/) cu noi, ca [beneficiar al Asociației unPi pentru Școlari](https://start.unpi.ro/vreau/), sau independent de asociație, ca [utilizator privat](https://start.unpi.ro/privat/), ai nevoie de [unPi, mic calculator personal](https://start.unpi.ro/spec/). Altfel, dacă ai deja un [calculator cu Windows OS](https://go.unpi.ro/pregatire/windows), îți va fi **mult** mai greu să ne urmărești.
+Acest curs de programare, precum și următoarele pe care le vom face, sunt destinate **exclusiv** pentru [platforma Raspberry Pi](https://www.raspberrypi.org/), pe care noi am rebotezat-o [unPi](https://start.unpi.ro/spec/pc/) în România. Ca să [înveți programarea calculatoarelor](https://start.unpi.ro/invat/programare/) cu noi, ca [beneficiar al Asociației unPi pentru Școlari](https://start.unpi.ro/vreau/), sau independent de asociație, ca [utilizator privat](https://start.unpi.ro/privat/), ai nevoie de [unPi, mic calculator personal](https://start.unpi.ro/spec/). [Altfel](https://go.unpi.ro/pregatire/windows), îți va fi **mult** mai greu să ne urmărești.
 
 ### Pregătire
 

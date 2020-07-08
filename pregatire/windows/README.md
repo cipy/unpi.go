@@ -63,7 +63,7 @@ bash index.html
 
 ### Cum pregătesc un calculator personal cu Linux OS / Mac OS X
 
-Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori pe care i-am descris mai sus pentru Windows OS (nu varianta 10 Pro 64-bit), dar folosind programul VirtualBox/vmWare/Fusion pentru a instala [sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) pe platforma ta preferată, ca o nouă mașina virtuală.
+Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori pe care i-am descris mai sus pentru Windows OS (nu cei din varianta 10 Pro 64-bit), dar folosind programul VirtualBox/VMware/Fusion pentru a instala [sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) pe platforma ta preferată, ca o nouă mașină virtuală. Pentru a avea un sistem mult mai perfomant, îți recomandăm să instalezi Raspbian Desktop pentru PC pe unde disk separat sau pe un memory stick și să bootezi direct în el doar pentru lecțille de programare în Golang. În felul acesta te vei putea izola de distracțiile existe deja pe calculatorul tău și concentra mai bine să înveți programare.
 
 **Doar** dacă folosești deja _Linux Debian OS_ vei putea folosi direct următoarele comenzi în aplicația Terminal 📺
 
@@ -72,6 +72,6 @@ wget https://infra.unpi.ro/init.sh -O init.sh
 sudo bash init.sh
 ```
 
-#### Performanța mașinii virtuale Raspbian Desktop va depinde de cât de rapid este deja calculatorul tău personal.
+#### Performanța mașinii virtuale Raspbian Desktop va depinde de **cât de rapid** este deja calculatorul tău personal.
 
 ### Ești gata? (te poți întoarce acum la [cursul de programare în Golang](https://go.unpi.ro/))

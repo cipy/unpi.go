@@ -2,7 +2,7 @@
 
 Vei putea urma prima parte a cursului de programare în Golang și pe un calculator personal cu Windows OS 7, 8.1 sau 10 - **numai dacă** respecți pașii pregătitori de mai jos. Dar pe parcurs, după primul an de studii cu noi, îți va fi din ce în ce mai greu să ne urmărești, dacă nu ai [unPi](https://start.unpi.ro/spec/) al tău.
 
-Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori (de mai jos) necesari pentru Windows OS, pe platforma ta preferată. De asemenea, pentru cunoscători, dacă ai Windows 10 Pro licențiat pentru 64-bit, vei putea [instala Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) ca Windows Subsystem for Linux (WSL) și menține astfel un sistem mult mai rapid decât cel cu VirtualBox 😎
+Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori (de mai jos) necesari pentru Windows OS, pe platforma ta preferată. De asemenea, pentru cunoscători, dacă ai Windows 10 Pro licențiat pentru 64-bit, vei putea [instala Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) ca Windows Subsystem for Linux (WSL) și menține astfel un sistem **mult mai rapid** decât cel cu VirtualBox 😎
 
 ### Cum pregătesc un calculator personal cu Windows OS pentru cursul de Golang
 

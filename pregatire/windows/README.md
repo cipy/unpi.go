@@ -10,7 +10,7 @@ Vei putea urma prima parte a cursului de programare în Golang și pe un calcula
 
 - pornește [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care tocmai ai instalat-o din Microsoft Store
 - la pornire îți va cere un nume de utilizator, folosește: **pi** iar ca parolă, folosește: **raspberry**
-- (**nimeni nu se poate conecta** din afara calculatorului tău chiar dacă știe acest utilizator/parolă)
+- (**nimeni nu se poate conecta** din afara calculatorului tău, chiar dacă știe acest utilizator/parolă)
 - după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash

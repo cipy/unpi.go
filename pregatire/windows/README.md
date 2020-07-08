@@ -57,7 +57,7 @@ Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei �
 **Doar** dacă folosești deja _Linux Debian OS_ vei putea folosi direct următoarele comenzi în aplicația Terminal 📺
 
 ```bash
-curl -sL init.unpi.ro -o init.sh
+wget https://infra.unpi.ro/init.sh -O init.sh
 sudo bash init.sh
 ```
 

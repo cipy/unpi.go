@@ -1,12 +1,12 @@
 ### Alt cuvânt înainte
 
-Vei putea urma prima parte a cursului de programare în Golang și pe un calculator personal cu **Windows OS** - doar dacă urmezi cu strictețe pașii pregătitori de mai jos. Dar pe parcurs, după primul an de studii cu noi, îți va fi din ce în ce mai greu să ne urmărești, dacă nu ai [unPi](https://start.unpi.ro/spec/) al tău.
+Vei putea urma prima parte a cursului de programare în Golang și pe un calculator personal cu **Windows OS** - doar dacă urmezi cu **strictețe** pașii pregătitori de mai jos. Dar pe parcurs, după primul an de studii cu noi, îți va fi din ce în ce mai greu să ne urmărești, dacă nu ai [unPi](https://start.unpi.ro/spec/) al tău.
 
 #### înainte de a începe, verifică te rog că Windows OS este **up-to-date** sau instalează **toate** update-urile și repornește-l
 
 ### Cum pregătesc un calculator personal cu Windows 10 Pro 64-bit
 
-În primul rând, chiar ai nevoie de un calculator cu sistemul de operare **Windows 10 Pro pe 64 de biți**, licențiat. Acești pași **nu vor funcționa** decât pe varianta de [64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Continuă prin a [instala aplicația Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6). _Nu trebuie neapărat sâ te autentifici în Microsoft Store, poți chiar închide fereastra de logare._ Odată instalat Debian OS ca Windows Subsystem for Linux (WSL, în termeni tehnici) vei avea un sistem **mult mai rapid** decât cel bazat pe VirtualBox (descris puțin mai jos la Windows OS).
+În primul rând, chiar ai nevoie de un calculator cu sistemul de operare **Windows 10 Pro pe 64 de biți**, licențiat. Acești pași **nu vor funcționa** decât pe varianta de [64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Continuă prin a [instala aplicația Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6). _Nu trebuie neapărat să te autentifici în Microsoft Store, poți chiar închide fereastra de logare._ Odată instalat Debian OS ca Windows Subsystem for Linux (WSL, în termeni tehnici) vei avea un calculator **mult mai rapid** decât cel bazat pe VirtualBox (descris puțin mai jos la Windows OS).
 
 ### Pas cu Pas pentru WSL / numai pe Windows 10 Pro 64-bit
 
@@ -17,11 +17,11 @@ Vei putea urma prima parte a cursului de programare în Golang și pe un calcula
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-- după ce comanda precedentă termină de executat, **trebuie** să restartezi Windows 10
+- după ce comanda precedentă se termină de executat, **trebuie** să restartezi Windows 10
 - pornește acum [aplicația Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) pe care ai instalat-o (mai devreme) din Microsoft Store 
 - la pornire aplicația îți va cere un nume de utilizator, folosește: **pi** iar ca parolă, folosește: **raspberry**
 - (**nimeni nu se poate conecta** din afara calculatorului tău, chiar dacă știe parola acestui utilizator)
-- după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, o linie pe ecran care se termina cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
+- după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, o linie pe ecran care se termină cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash
 curl.exe -sL init.unpi.ro -o init.sh
@@ -29,7 +29,7 @@ sudo bash init.sh
 ```
 
 - la ultima comandă (sudo) vei fi întrebat parola pentru utilizatorul **pi**, care este **raspberry**
-- asteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu" 
+- așteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu" 
 - calculatorul tău este acum pregătit pentru [cursul nostru de programare în limbajul Golang](https://go.unpi.ro/)
 
 ### Cum pregătesc un calculator personal cu Windows OS 7, 8.1 sau 10
@@ -49,9 +49,9 @@ Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu s
 #### mai dificil
 - descarcă [ultima versiune a sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) ca fișier **ISO** în directorul "unpi"
 - pornește programul VirtualBox nou instalat și creează o mașină virtuală nouă de tip Linux/Debian 32-bit
-- folosește fișierul **ISO** (Raspbian Desktop pentru PC) ca DVD virtual la mașină ta virtuală nou creată
+- folosește fișierul **ISO** (Raspbian Desktop pentru PC) ca DVD virtual la mașina ta virtuală nou creată
 - pornește noua ta mașină virtuală, bootează de pe DVD-ul virtual și continuă instalarea și configurarea ei
-- după instalarea completă, pornește aplicația Terminal 📺 din Raspbian Desktop, și pe linia de pe ecran care se termina cu simbolul **$** trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
+- după instalarea completă, pornește aplicația Terminal 📺 din Raspbian Desktop, și pe linia de pe ecran care se termină cu simbolul **$** trebuie să tastezi **exact** comenzile de mai jos, apăsând tasta **Enter** după fiecare linie de comandă:
 
 ```bash
 wget init.unpi.ro
@@ -63,7 +63,7 @@ bash index.html
 
 ### Cum pregătesc un calculator personal cu Linux OS / Mac OS X
 
-Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori pe care i-am descris mai sus pentru Windows OS (nu cei din varianta 10 Pro 64-bit), dar folosind programul VirtualBox/VMware/Fusion pentru a instala [sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) pe platforma ta preferată, ca o nouă mașină virtuală. Pentru a avea un sistem mult mai performant, îți recomandăm să instalezi Raspbian Desktop pentru PC pe un disk separat, sau pe un memory stick și să bootezi direct în el doar pentru lecțiile de programare în Golang. În felul acesta te vei putea izola de distracțiile existente deja pe calculatorul tău și concentra mai bine să înveți programare.
+Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei ști cum să execuți singur pașii preparatori pe care i-am descris mai sus pentru Windows OS (nu cei din varianta 10 Pro 64-bit), dar folosind programul VirtualBox/VMware/Fusion pentru a instala [sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) pe platforma ta preferată, ca o nouă mașină virtuală. Pentru a avea un sistem _mult_ mai performant, îți recomandăm să instalezi Raspbian Desktop pentru PC pe un disk separat, sau pe un memory stick și să bootezi direct în el doar pentru lecțiile de programare în Golang. În felul acesta te vei putea izola de distracțiile existente deja pe calculatorul tău și concentra mai bine să înveți programare.
 
 **Doar** dacă folosești deja _Linux Debian OS_ vei putea folosi direct următoarele comenzi în aplicația Terminal 📺
 

@@ -34,7 +34,7 @@ sudo bash init.sh
 
 ### Cum pregătesc un calculator personal cu Windows OS 7, 8.1 sau 10
 
-Trebuie să ai pe calculatorul tău personal sistemul de operare Windows versiunea 7, 8.1 sau 10 (**nu** varianta 10 Pro pe 64 biți descrisă mai sus). Windows XP **nu** mai este suportat de Microsoft, deci nu te putem ajuta dacă ai acest vechi sistem de operare. Dacă ai în schimb un Windows 7, 8.1 sau 10 fără licență, te poți înscrie în [programul de voluntariat al Asociației unPi pentru Școlari](https://start.unpi.ro/ong/voluntar/) și vei primi o licență gratis câtă vreme ești voluntar și ne ajuti în rolul pe care ți-l alegi.
+Trebuie să ai pe calculatorul tău personal sistemul de operare Windows versiunea 7, 8.1 sau 10 (**nu** varianta 10 Pro pe 64 biți descrisă mai sus). Windows XP **nu** mai este suportat de Microsoft, deci nu te putem ajuta dacă ai acest vechi sistem de operare. Dacă ai în schimb un Windows 7, 8.1 sau 10 fără licență, te poți înscrie în [programul de voluntariat al Asociației unPi pentru Școlari](https://start.unpi.ro/ong/voluntar/) și vei primi o licență gratis câtă vreme ești voluntar și ne ajuti în rolul pe care ți-l alegi. Atunci când folosești VirtualBox (descris mai jos), calculatorul tău poate funcționa [mult] **mai lent** decât de obicei.
 
 ### Pas cu Pas pentru Windows OS
 
@@ -73,5 +73,10 @@ sudo bash init.sh
 ```
 
 #### Performanța mașinii virtuale Raspbian Desktop va depinde de **cât de rapid** este deja calculatorul tău personal.
+
+### Cum pregătesc un calculator personal generic ("mă descurc [și] singur")
+- instalează [versiunea Golang **corectă**](https://golang.org/dl/#stable) pentru sistemul tău de operare (folosind .msi pentru Windows OS)
+- instalează [Visual Studio Code](https://code.visualstudio.com/download) pentru sistemul tău de operare
+- instalează [extensia Go pentru Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=golang.go)
 
 ### Ești gata? (te poți întoarce acum la [cursul de programare în Golang](https://go.unpi.ro/))

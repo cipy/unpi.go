@@ -75,7 +75,7 @@ sudo bash init.sh
 #### Performanța mașinii virtuale Raspbian Desktop va depinde de **cât de rapid** este deja calculatorul tău personal.
 
 ### Cum pregătesc un calculator personal generic ("mă descurc [și] singur")
-- instalează [versiunea Golang **corectă**](https://golang.org/dl/#stable) pentru sistemul tău de operare (folosind .msi pentru Windows OS)
+- instalează [versiunea Golang **corectă**](https://golang.org/dl/#stable) pentru sistemul tău de operare (folosind .msi pentru Windows)
 - instalează [Visual Studio Code](https://code.visualstudio.com/download) pentru sistemul tău de operare
 - instalează [extensia Go pentru Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=golang.go)
 

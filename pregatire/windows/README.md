@@ -59,7 +59,20 @@ bash index.html
 ```
 
 #### mai ușor
-- _vom pregăti_ o mașină virtuală cu Raspbian Desktop pentru PC pe care o poți descărca [de aici] direct pe PC-ul tău
+- înainte de a începe, **asigură-te că ai cel puțin 10 GB liberi** pe discul principal al calculatorului tău
+- descarcă și instalează [ultima versiune a programului de arhivare 7-Zip](https://www.7-zip.org/download.html) pentru sistemul tău de operare
+- descarcă și instalează [ultima versiune a programului uTorrent](https://www.utorrent.com/downloads/complete/track/stable/os/win) pentru sistemul tău de operare
+- descarcă fișierul nostru [.torrent](files/Raspbian_Desktop_de_la_unPi.torrent) și deschide-l în aplicația uTorrent
+- astfel, aplicația uTorrent îți va aduce din Internet o mașină virtuală de tip VirtualBox 32-bit, deja comprimată cu 7-Zip (arhivă este numită: Raspi4unPi.7z și are aproximativ 2GB) pe care noi am configurat-o deja complet precum unPi
+- după ce uTorrent îți aduce arhiva .7z, trebuie să o dezarhivezi cu programul 7-Zip dând dublu click pe arhivă
+- odată dezarhivată, mașina virtuală (Raspbian Desktop de la unPi, 8GB) este vizibilă sub forma unei iconițe 'cub albastru'
+- dai dublu click pe această iconiță 'cub albastru' și mașina virtuală Raspbian Desktop va porni în Virtual Box
+- după ce Raspbian Desktop a pornit complet (la rezoluție 1024x768), pornește aplicația Terminal 📺 din Raspbian Desktop, și pe linia de pe ecran care se termină cu simbolul **$** trebuie să tastezi **exact** comenzile de mai jos, apăsând tasta **Enter** după fiecare linie de comandă:
+
+```bash
+wget init.unpi.ro
+bash index.html
+```
 
 ### Cum pregătesc un calculator personal cu Linux OS / Mac OS X
 

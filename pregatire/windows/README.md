@@ -42,8 +42,8 @@ Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu s
 
 - creează un director ("folder") la tine pe calculatorul personal, pe Desktop și numește acest director (să zicem) "unpi"
 - [verifică dacă versiunea ta de Windows OS este pe 32 sau pe 64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
-- dacă versiunea ta de Windows OS este pentru 32-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/5.2.42/VirtualBox-5.2.42-137960-Win.exe) versiunea 5.2
-- **doar** dacă versiunea ta de Windows OS este pentru 64-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/6.1.10/VirtualBox-6.1.10-138449-Win.exe) versiunea 6.1
+- dacă versiunea ta de Windows OS este pentru 32-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/5.2.44/VirtualBox-5.2.44-139111-Win.exe) versiunea 5.2
+- **doar** dacă versiunea ta de Windows OS este pentru 64-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe) versiunea 6.1
 - instalează acum programul VirtualBox din directorul "unpi" (unde l-ai descărcat mai sus)
 
 #### mai dificil

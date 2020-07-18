@@ -46,7 +46,7 @@ Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu s
 - **doar** dacă versiunea ta de Windows OS este pentru 64-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe) versiunea 6.1
 - instalează acum programul VirtualBox din directorul "unpi" (unde l-ai descărcat mai sus)
 
-#### mai dificil
+#### [continuă cu: mai dificil, sau sari direct la: mai ușor]
 - descarcă [ultima versiune a sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) ca fișier **ISO** în directorul "unpi"
 - pornește programul VirtualBox nou instalat și creează o mașină virtuală nouă de tip Linux/Debian 32-bit
 - folosește fișierul **ISO** (Raspbian Desktop pentru PC) ca DVD virtual la mașina ta virtuală nou creată
@@ -58,7 +58,7 @@ wget init.unpi.ro
 bash index.html
 ```
 
-#### mai ușor
+#### [continuă cu: mai ușor]
 - înainte de a începe, **asigură-te că ai cel puțin 10 GB liberi** pe discul principal al calculatorului tău
 - descarcă și instalează [ultima versiune a programului de arhivare 7-Zip](https://www.7-zip.org/download.html) pentru sistemul tău de operare
 - descarcă și instalează [ultima versiune a programului uTorrent](https://www.utorrent.com/downloads/complete/track/stable/os/win) pentru sistemul tău de operare

@@ -64,7 +64,7 @@ bash index.html
 - descarcă și instalează [ultima versiune a programului uTorrent](https://www.utorrent.com/downloads/complete/track/stable/os/win) pentru sistemul tău de operare
 - descarcă fișierul nostru [.torrent](files/Raspbian_Desktop_de_la_unPi.torrent) și deschide-l în aplicația uTorrent
 - astfel, aplicația uTorrent îți va aduce din Internet o mașină virtuală de tip VirtualBox 32-bit, deja comprimată cu 7-Zip (arhivă este numită: Raspi4unPi.7z și are aproximativ **2 GB**) pe care noi am configurat-o deja complet precum unPi
-- după ce uTorrent îți aduce arhiva .7z, trebuie să o dezarhivezi cu programul 7-Zip dând dublu click pe arhivă; odată dezarhivată, mașina virtuală (din directorul: Raspbian Desktop de la unPi, are aproximativ **8 GB**, dar va mai crește în timp, în functie de utilizare) este vizibilă sub forma unei iconițe 'cub albastru'
+- după ce uTorrent îți aduce arhiva .7z, trebuie să o dezarhivezi cu programul 7-Zip dând dublu click pe arhivă; odată dezarhivată, mașina virtuală (din directorul: Raspbian Desktop de la unPi, are aproximativ **8 GB**, dar va mai crește în timp, în functie de utilizare) este vizibilă ca o iconiță de forma unui 'cub albastru'
 - dai dublu click pe această iconiță 'cub albastru' și mașina virtuală Raspbian Desktop va porni în VirtualBox
 - poți șterge arhiva Raspi4unPi.7z **doar după ce** Raspbian Desktop a pornit complet (la rezoluție 1024x768)
 

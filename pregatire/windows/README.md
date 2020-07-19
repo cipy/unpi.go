@@ -66,12 +66,9 @@ bash index.html
 - astfel, aplicația uTorrent îți va aduce din Internet o mașină virtuală de tip VirtualBox 32-bit, deja comprimată cu 7-Zip (arhivă este numită: Raspi4unPi.7z și are aproximativ **2 GB**) pe care noi am configurat-o deja complet precum unPi
 - după ce uTorrent îți aduce arhiva .7z, trebuie să o dezarhivezi cu programul 7-Zip dând dublu click pe arhivă; odată dezarhivată, mașina virtuală (din directorul: Raspbian Desktop de la unPi, are aproximativ **8 GB**, dar va mai crește în timp, în functie de utilizare) este vizibilă sub forma unei iconițe 'cub albastru'
 - dai dublu click pe această iconiță 'cub albastru' și mașina virtuală Raspbian Desktop va porni în VirtualBox
-- după ce Raspbian Desktop a pornit complet (la rezoluție 1024x768), pornește aplicația Terminal 📺 din Raspbian Desktop, și pe linia de pe ecran care se termină cu simbolul **$** trebuie să tastezi **exact** comenzile de mai jos, apăsând tasta **Enter** după fiecare linie de comandă:
+- poți șterge arhiva Raspi4unPi.7z **doar după ce** Raspbian Desktop a pornit complet (la rezoluție 1024x768)
 
-```bash
-wget init.unpi.ro
-bash index.html
-```
+#### Performanța mașinii virtuale Raspbian Desktop va depinde de **cât de rapid** este deja calculatorul tău personal.
 
 ### Cum pregătesc un calculator personal cu Linux OS / Mac OS X
 
@@ -83,8 +80,6 @@ Dacă folosești deja Linux OS sau Mac OS X pe calculatorul tău personal, vei �
 wget https://infra.unpi.ro/init.sh -O init.sh
 sudo bash init.sh
 ```
-
-#### Performanța mașinii virtuale Raspbian Desktop va depinde de **cât de rapid** este deja calculatorul tău personal.
 
 ### Cum pregătesc un calculator personal generic ("mă descurc [și] singur")
 - instalează [versiunea Golang **corectă**](https://golang.org/dl/#stable) pentru sistemul tău de operare (folosind .msi pentru Windows)

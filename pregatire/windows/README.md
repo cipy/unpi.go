@@ -32,8 +32,8 @@ sudo bash index.html
 
 - la prima comandă (_sudo_) îți va cere parola pentru utilizatorul **pi**, care este **raspberry**
 - la întrebările următoare poți răspunde apăsând direct tasta **Enter**, pentru a accepta valorile propuse
-- așteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu" 
-- calculatorul tău este acum pregătit pentru [cursul nostru de programare în limbajul Golang](https://go.unpi.ro/)
+- așteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu", apoi:
+- calculatorul tău este pregătit pentru [cursul nostru de programare în limbajul Golang](https://go.unpi.ro/)
 
 ### Cum pregătesc un calculator personal cu Windows OS 7, 8.1 sau 10
 

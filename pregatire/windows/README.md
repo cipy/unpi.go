@@ -8,7 +8,7 @@ Vei putea urma prima parte a cursului de programare în Golang și pe un calcula
 
 În primul rând, chiar ai nevoie de un calculator cu sistemul de operare **Windows 10 Pro pe 64 de biți**, licențiat. Acești pași **nu vor funcționa** decât pe varianta de [64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Continuă prin a [instala aplicația Debian Linux din Microsoft Store](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6). _Nu trebuie neapărat să te autentifici în Microsoft Store, poți chiar închide fereastra de logare._ Odată instalat Debian OS ca Windows Subsystem for Linux (WSL, în termeni tehnici) vei avea un calculator **mult mai rapid** decât cel bazat pe VirtualBox (descris puțin mai jos la Windows OS).
 
-### Pas cu Pas pentru WSL / numai pe Windows 10 Pro 64-bit
+### Pas cu Pas pentru WSL 1 / **numai** pentru Windows 10 Pro 64-bit
 
 - trebuie să activezi WSL(1) în Windows 10,
 - pentru asta deschide aplicația PowerShell **ca Administrator** și rulează în ea:
@@ -24,11 +24,14 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 - după ce ai introdus combinația utilizator / parolă, vei vedea un prompt, o linie pe ecran care se termină cu simbolul **$** după care trebuie să tastezi **exact** comenzile de mai jos, apăsand tasta **Enter** după fiecare linie de comandă:
 
 ```bash
-curl.exe -sL init.unpi.ro -o init.sh
-sudo bash init.sh
+sudo apt update
+sudo apt install wget
+wget init.unpi.ro
+sudo bash index.html
 ```
 
-- la ultima comandă (sudo) vei fi întrebat parola pentru utilizatorul **pi**, care este **raspberry**
+- la prima comandă (_sudo_) îți va cere parola pentru utilizatorul **pi**, care este **raspberry**
+- la întrebările următoare poți răspunde apăsând direct tasta **Enter**, pentru a accepta valorile propuse
 - așteaptă te rog comenzile de mai sus să-și termine execuția cu textul "spor la studiu" 
 - calculatorul tău este acum pregătit pentru [cursul nostru de programare în limbajul Golang](https://go.unpi.ro/)
 
@@ -43,10 +46,10 @@ Pentru a putea învăța și exersa cursul de Golang cu noi, **trebuie** ca tu s
 - creează un director ("folder") la tine pe calculatorul personal, pe Desktop și numește acest director (să zicem) "unpi"
 - [verifică dacă versiunea ta de Windows OS este pe 32 sau pe 64 biți](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
 - dacă versiunea ta de Windows OS este pentru 32-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/5.2.44/VirtualBox-5.2.44-139111-Win.exe) versiunea 5.2
-- **doar** dacă versiunea ta de Windows OS este pentru 64-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe) versiunea 6.1
+- **doar** dacă versiunea ta de Windows OS este pentru 64-bit, trebuie să descarci în același director "unpi" [programul de virtualizare VirtualBox](https://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16-140961-Win.exe) versiunea 6.1
 - instalează acum programul VirtualBox din directorul "unpi" (unde l-ai descărcat mai sus)
 
-#### [continuă cu: mai dificil, sau sari direct la: mai ușor]
+#### [continuă cu: mai dificil, sau sari direct mai jos la: mai ușor]
 - descarcă [ultima versiune a sistemului de operare Raspbian Desktop pentru PC](https://www.raspberrypi.org/downloads/raspberry-pi-desktop/) ca fișier **ISO** în directorul "unpi"
 - pornește programul VirtualBox nou instalat și creează o mașină virtuală nouă de tip Linux/Debian 32-bit
 - folosește fișierul **ISO** (Raspbian Desktop pentru PC) ca DVD virtual la mașina ta virtuală nou creată

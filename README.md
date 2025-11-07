@@ -16,7 +16,7 @@ Cursul nostru [de programare](https://start.unpi.ro/dece/) în limbajul Golang c
 
 ### Cuprins
 
-- înainte de toate
+- [înainte de toate](cuvant inainte)
 - ce este un calculator
 - ce sunt datele, exemple
 - ce sunt instrucțiunile 

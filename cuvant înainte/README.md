@@ -8,4 +8,5 @@ Ideal ai invatat bine in scoala generala, ai putut merge la un liceu de informat
 
 Cursul este pentru oricine are mai mult de 10 ani de viata, prichindel sau senior. Pentru oricine care e dispus sa lucreze cu sine, sa greseasca, sa incerce iar, sa incerce iar, sa practice cand n-ai niciun chef de practica (cum crezi ca vei rezista in domeniu cand flama primilor ani se stinge? Sau acum cand toti se inchina la AI?). Programarea e o munca precum oricare alta. Sau un sport de performanta. Multi se lasa pe parcurs. Nu fi tu acela/aceea! Da, si eu va trebui sa scriu aici cand poate n-am niciun chef, sa practic singur, sau practicam virtual impreuna, la distanta in timp si spatiu. Programarea e un talent care se dezolta in timp, prin repetitie.
 
-Dar avem AI, de ce sa mai invat programare? Pentru acelasi motiv pentru care ai vrea sa inveti sa canti, sa dansezi, sa inoti, sa te lupti (karate), sa desenezi. Ca sa te poti exprima ca un artist :-)
+Dar avem AI, de ce sa mai invat programare?
+Pentru acelasi motiv pentru care ai vrea sa inveti sa canti, sa dansezi, sa inoti, sa te lupti (karate), sa desenezi. Ca sa te poti exprima ca un artist :-)
